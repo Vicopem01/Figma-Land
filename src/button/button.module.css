@@ -1,0 +1,11 @@
+.btn{
+    border: 1px #fff solid;
+    padding: 15px 30px;
+    margin: 15px;
+    font-size: 17px;
+}
+@media screen and (max-width: 1192px){
+    .btn{
+        padding: 15px 15px;
+    }
+}

@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Graphik_regular;
+  src: url(./fonts/Graphik-Medium.ttf);
+}
+@font-face {
+  font-family: Graphik_bold;
+  src: url(./fonts/Graphik-Semibold.ttf);
+}
+:root{
+  --graphik_regular: Graphik_regular;
+  --graphik_bold: Graphik_bold;
+}
+html{
+  width: 100%;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: var(--graphik_bold);
+}
+body {
+  width: 100%;
+  background-color: #181818;
+}
+a:link, a:visited, a:active{
+  color: inherit;
+}
+a:hover{
+  opacity: 0.6;
+}
+a{
+  text-decoration: none;
+  font-size: 1rem;
+}
